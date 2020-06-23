@@ -14,24 +14,31 @@ bot.on('message', () => {
     // Weekly messages and tips.
     let message;
     switch (new Date().getDay()) {
+        // Sunday.
         case 0:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: Eat, Sleep, PSO, Repeat! ~ Gae Bolg");
             break;
+        // Monday.
         case 1:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: If you haven't already, check out '📝-role-list' and let others know what versions of PSO you play. Use '📝-assign-roles' so members know what games to invite you to! ~ Gae Bolg");
             break;
+        // Tuesday.
         case 2:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: 0o0o0o0o0o0o0o0o ~ Gae Bolg");
             break;
+        // Wednesday.
         case 3:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: When you enter a voice channel, check out '🎵-music-requests' and play music/sound effects! ~ Gae Bolg");
             break;
+        // Thursday.
         case 4:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: Check out '📢-dreamteam-uploads' to watch our YouTube videos as they release. ~ Gae Bolg");
             break;
+        // Friday.
         case 5:
             day = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: This is just a reminder that tomorrow is PSO game night, prepare yourselves! ⚔️ ~ Gae Bolg");
             break;
+        // Saturday.
         case 6:
             message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: Ah yes, it is that time again, ladies and gentlemen. Tonight is officially PSO game night! ~ Gae Bolg");
     }
