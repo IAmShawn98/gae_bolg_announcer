@@ -20,7 +20,7 @@ bot.on('message', () => {
             break;
         // Monday.
         case 1:
-            message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: If you haven't already, check out '📝-role-list' and let others know what versions of PSO you play. Use '📝-assign-roles' so members know what games to invite you to! ~ Gae Bolg");
+            message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: DreamTeam has new unique emoji icons, try em' out NOW! ~ Gae Bolg");
             break;
         // Tuesday.
         case 2:
