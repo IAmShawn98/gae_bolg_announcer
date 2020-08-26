@@ -28,7 +28,7 @@ bot.on('message', () => {
             break;
         // Wednesday.
         case 3:
-            message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: When you enter a voice channel, check out '🎵-music-requests' and play music/sound effects! ~ Gae Bolg");
+            message = channel.setTopic("❓-This channel is reserved for general conversations | ❗-Server Message: If you haven't already, check out '📝-role-list' and let others know what versions of PSO you play. Use '📝-assign-roles' so members know what games to invite you to! ~ Gae Bolg");
             break;
         // Thursday.
         case 4:
